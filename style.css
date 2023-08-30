@@ -209,6 +209,13 @@ body {
   background-color: #1C1F25;
   color: #fff;
 }
+.cardo i{
+  cursor: pointer;
+}
+.checkOut a{
+  text-decoration: none;
+  color: #fff;
+}
 .active .cardo{
   left: calc(100% - 400px);
 }
@@ -524,4 +531,9 @@ color: white;
   background-color: #765827;
   color: white;
 }
-
+.cart-item-title{
+   color: #E57C23;
+}
+.cart-item-price{
+  color: #FAF3F0;
+}

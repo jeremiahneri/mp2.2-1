@@ -46,6 +46,18 @@ items.forEach((product) =>{
       addToCartBtn.disabled = true;
     }
     
+    // Clear Cart Function
+      function clearCart() {
+      cartItems = []; 
+      // updateCartCount();
+      addToCartBtn.textContent = "Add to Cart";
+      addToCartBtn.disabled = false;
+      updateCartContent();
+      saveCartToLocalStorage(); 
+}
+
+let clearCartButton = document.getElementById("clear-cart-button");
+clearCartButton.addEventListener("click", clearCart);
   })
 })
 //save cart items to local storage
@@ -64,19 +76,24 @@ function updateCartContent() {
 
   cartItems.forEach((product) => {
     let cartItemElement = document.createElement("div");
-    cartItemElement.classList.add("cart-item"); // Apply styles if needed
+    cartItemElement.classList.add("cart-item", "row"); // Apply styles if needed
     cartItemElement.innerHTML = `
-      <img src="${product.ProductImages}" class="cart-item-image" alt="${product.productName}">
-      <div class="cart-item-details">
-        <h5 class="cart-item-title">${product.productName}</h5>
-        <p class="cart-item-price"><i class="fa-solid fa-peso-sign" style="color: #000000;"></i> ${product.productPrice}</p>
-      </div>
-      
+            <div class="col-md-4 mb-3">
+                <img src="${product.ProductImage}" style="width: 90%;" alt="">
+            </div>
+            <div class="col-md-4">
+                <h5 class="cart-item-title">${product.productName}</h5>
+            </div>
+            <div class="col-md-4">
+                <p class="cart-item-price py-3"><i class="fa-solid fa-peso-sign" style="color: #FAF3F0;"></i> ${product.productPrice}</p>
+            </div>
     `;
     cartContent.appendChild(cartItemElement);
   });
   updateTotalPrice();
 }
+
+
 
 // Total price function
 function updateTotalPrice(){
@@ -92,19 +109,6 @@ function updateTotalPrice(){
   });
   return total;
  }
-
-// Clear Cart Function
-function clearCart() {
-  cartItems = []; 
-  // updateCartCount();
-  updateCartContent();
-  saveCartToLocalStorage(); 
-}
-
-let clearCartButton = document.getElementById("clear-cart-button");
-clearCartButton.addEventListener("click", clearCart);
-
-
 
 // Initializing slider
 var swiper = new Swiper(".slide-container", {
