@@ -11,7 +11,7 @@ items.forEach((product) =>{
   <div class="card-body">
     <h5 class="card-title mb-5">${product.productName}</h5>
     <div class="text-body-secondary">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam accusamus rem odit et explicabo aliquid.
+    ${product.productDescription}
     </div>
     <p class="card-text"><i class="fa-solid fa-peso-sign" style="color: #000000;"></i> ${product.productPrice}</p>
     <button class="btn addCartButtonColor add-cart">Add to Cart <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></button> 
@@ -23,7 +23,7 @@ items.forEach((product) =>{
 
   let addToCartBtn = createElement.querySelector(".add-cart");
   addToCartBtn.addEventListener("click", () =>{
-    alert(`${product.productName} added to cart successfully!`);
+    // alert(`${product.productName} added to cart successfully!`);
   })
 })
 
