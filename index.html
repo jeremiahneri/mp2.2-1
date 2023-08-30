@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <title>JedDelights</title>
+</head>
+
+<body>
+    <div class="container-fluid"
+        style="background-image: url('img/mainbread.jpg');background-size: cover; height: 100vh;">
+        <nav class="navbar navbar-expand-lg navbar-light navbarMain">
+            <div class="container-fluid">
+                <div class="brandPic">
+                    <img src="img/62213077-removebg-preview.png" alt="" width=" 100%"
+                        style="position: relative; top: 1vh;">
+                </div>
+                <a class="navbar-brand brandName text-light" href="#">JEDelights</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link text-light" href="#">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Contacts</a>
+                        </li>
+                        <li class="nav-item accounts">
+                            <a class="nav-link text-light" href="#">Account&nbsp; <i class="fa-solid fa-user"
+                                    style="position: relative; left: 0.5vw; bottom: -0.5vh; font-size: 1.3rem;"></i></a>
+                        </li>
+                        <li class="nav-item cart">
+                            <a class="nav-link text-light" href="#">Cart&nbsp; <i class="fa-solid fa-cart-shopping"
+                                    style="position: relative; left: 0.5vw; bottom: -0.4vh; font-size: 1.3rem;"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="slogan">
+                <h2 class="slog">TAKE PLEASURE IN THE SMALL THINGS</h2>
+                <hr>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, recusandae.</h5>
+                <button class="explore-button btn1">Our Best Sellers</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="background-color: #FAF3F0; height: 100%;">
+        <div class="container">
+            <div class="row p-5">
+                <div class="col-md-6 my-3 text-center">
+                    <div class="minicon">
+                        <img src="img/mainbread.jpg" width="100%" alt="" id="main">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 pic2 my-3">
+                            <img src="img/mainbread.jpg" alt="" class="thumbnail" id="image-1" width="100%">
+                        </div>
+                        <div class="col-md-4 pic3 my-3">
+                            <img src="img/download.jpg" alt="" class="thumbnail" id="image-2" width="100%"
+                                style="background-color: blue;">
+                        </div>
+                        <div class="col-md-4 pic4 my-3">
+                            <img src="img/download.jpg" alt="" class="thumbnail" id="image-3" width="100%"
+                                style="background-color: violet;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="lineOne">
+                        <h3 style="font-family: lemon;">Welcome to JEDelights</h3>
+                        <hr class="lineTwo">
+                        <p>
+                            Welcome to JEDelights , where every bite is a celebration of flavors! We invite you to explore our delectable creations that blend artistry and taste. Indulge in the finest pastries, breads, and cakes, meticulously crafted to elevate your culinary experience. From our oven to your table, we're thrilled to share our passion for baking and our commitment to excellence. Thank you for choosing us to be a part of your delicious journey.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start of Container 3 -->
+
+
+    <div class="container3">
+        <div class="landscape">
+            <div class="percent">
+                <h5 class="just">Just Today ! 99% Off Special Offer for Rare Menu</h5>
+            </div>
+            <div class="baking">
+                <h5 class="special">We invite you to our restaurant...</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start of Container 4 -->
+    <div class="container-fluid p-5 text-center" style="background-color: #FAF3F0;">
+        <h1 style="font-family: lemon;">Our Best-seller</h1>
+        <p>Your JED's favourites - Homemade and Handmade to this day. Now you can order for delivery or pickup!</p>
+        <div class="content-container">
+            <div class="slide-container">
+                <div class="card-wrapper swiper-wrapper" id="show-top-products">
+                </div>
+            </div>
+            <button class="btn addCartButtonColor mt-5">More Products</button>
+        </div>
+    </div>
+    <div class="cardo">
+        <h1>Cart</h1>
+        <ul class="listCard"></ul>
+        <div class="checkOut">
+            <div class="total">0</div>
+            <div class="closeCart">Close</div>
+        </div>
+    </div>
+
+
+    <!-- Start of Container 5 -->
+    <div class="container5" style="background-color: #FAF3F0;">
+        <div class="bakeShop"></div>    
+        <h2 class="title" style="font-family: lemon;">Main Services We Provide</h2>
+        <div class="mainservice">
+            <div class="griditem1div">
+                <div class="grid-item1">
+                    <img src="./img/bread.png" alt="Image 1" class="image">
+                </div>
+                <h4 style="color: white;">Loads of Bread</h4>
+                <hr style="color: #E5BA73;">
+                <p>This bakery's dedication to perfecting their bread specialties truly shines through.</p>
+            </div>
+            <div class="griditem2div">
+                <div class="grid-item2">
+                    <img src="./img/chefshat.png" alt="Image 2" class="image2">
+                </div>
+                <h4 style="color: white;">Chef's Hat Specialty</h4>
+                <hr style="color: #E5BA73;">
+                <p>The way the chef artfully blended ingredients and techniques was a testament to their culinary prowess.</p>
+            </div>
+            <div class="griditem3div">
+                <div class="grid-item3">
+                    <img src="./img/sweets.png" alt="Image 3" class="image3" >
+                </div>
+                <h4 style="color: white;">Sweets And Stuff</h4>
+                <hr style="color: #E5BA73;">
+                <p>The meticulous crafting of each sweet was a testament to the chef's passion.</p>
+            </div>
+            <div class="griditem4div">
+                <div class="grid-item4">
+                    <img src="./img/cake.png" alt="Image 4" class="image4" >
+                </div>
+                <h4 style="color:  white;">Cakes For Wedding</h4>
+                <hr style="color: #E5BA73;">
+                <p>From intricate designs to seamless layers, each slice an indulgent romantic journey.</p>
+            </div>
+            <!-- <div class="rollingUp">
+                <img class="rollUp" src="img/rollingup.png" alt="">
+            </div>
+            <div class="rollingDown">
+                <img class="rollDown" src="img/rollingdown.png" alt="">
+            </div> -->
+        </div>
+    </div>
+   
+    <div class="container6" style="background-color: #FAF3F0;">
+        <h1 style="font-family: lemon;">We Love Our Customers</h1>
+        <div class="members">
+            <div class="membername">
+                <img src="img/eric.jpg" alt="" class="idpic">
+                <h4 class="ericName" style="color: #765827;">Eric Aguirre</h4>
+                <p>"Bakery magic flavors, presentation, and service beyond compare. Highly recommended!"</p>
+                <img src="img/stars1-removebg-preview.png" alt="" class="stars">
+            </div>
+            <div class="membername">
+                <img src="img/don.jpg" alt="" class="idpic">
+                <h4 class="donName" style="color: #765827;">Allen Veloso</h4>
+                <p>"Elevated indulgence this bakery masterfully balances flavor, artistry, and exceptional service."</p>
+                <img src="img/stars1-removebg-preview.png" alt="" class="stars">
+            </div>
+            <div class="membername">
+                <img src="img/gelo.jpg" alt="" class="idpic">
+                <h4 class="neriName" style="color: #765827;">Jeremiah Neri</h4>
+                <p>"Beyond compare this bakery casts a spell with its unparalleled flavors and presentation."</p>
+                <img src="img/stars1-removebg-preview.png" alt="" class="stars">
+            </div>
+            <div class="membername">
+                <img src="img/matt.jpg" alt="" class="idpic">
+                <h4 class="mattName" style="color: #765827;">Raymart Rosali</h4>
+                <p>"Sensory symphony a bakery that harmonizes taste, visuals, and service to perfection"</p>
+                <img src="img/stars1-removebg-preview.png" alt="" class="stars">
+            </div>
+        </div>
+    </div> 
+ 
+    <!-- Start of Container 7 -->
+    <div class="mapdiv">
+        <div class="contactus">
+            <h1>Contact Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, ut?</p>
+            <input type="text" class="input" placeholder="Your Name Here:">
+            <input type="text" class="input2" placeholder="Email">
+            <input type="text" class="message" placeholder="Message">
+            <button class="button">Send message</button>
+        </div>
+
+    </div>
+
+    <!-- Start of Container 8 -->
+<footer class="footer">
+    <div class="parentfooter">
+    <div class="footerdiv">
+        <h1 style="font-family: lemon;">JeDelights</h1>
+        <p>"Crafting joy through every creation, we're your ultimate bakery destination,Baked with love, savored with joy,artistry, and exceptional service. </p>
+        <i class="fa-brands fa-facebook" style="color: #765827;"></i></i><i class="fa-brands fa-youtube" style="color: #765827;"></i><i class="fa-brands fa-instagram" style="color: #765827;"></i><i class="fa-brands fa-linkedin" style="color: #765827;"></i>
+    </div>
+    <div class="footerdiv">
+        <h5>Contact</h5>
+        <p><i class="fa-solid fa-location-dot"></i> <b style="color: #765827;">Address : </b>42 Sunflower Street, Panglao Village, Tropica Island, Bohol Province, 54321, Philippines. `</p>
+        <p><i class="fa-solid fa-phone"></i> <b style="color: #765827;">Phone : </b>+63 9037582958</p>
+        <p><i class="fa-regular fa-envelope"></i> <b style="color: #765827;">Email : </b>123example@gmail.com</p>
+    </div>
+    <div class="footerdiv">
+        <h5>Recent Post</h5>
+        <div class="subdiv">
+            <img src="./img/recentpost2.jpg" alt="">
+            <p>"Delicious cake, a treat that satisfies every sweet craving beautifully!"
+            </p>
+        </div>
+        <div class="subdiv">
+            <img src="./img/recentpost1 (1).jpg" alt="">
+            <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, fuga."</p>
+        </div>
+    </div>
+    <div class="parentgrid">
+        <h5 style="position: relative; left: 10%;">Instagram Photos</h5>
+    <div class="griddiv">
+        <div class="imgdiv"><img src="./img/igpic1.jpg" alt=""></div>
+        <div class="imgdiv"><img src="./img/igpic2.jpg" alt=""></div>
+        <div class="imgdiv"><img src="./img/igpic3.jpg" alt=""></div>
+        <div class="imgdiv"><img src="./img/igpic4.jpg" alt=""></div>
+        <div class="imgdiv"><img src="./img/igpic5.jpg" alt=""></div>
+        <div class="imgdiv"><img src="./img/igpic6.jpg" alt=""></div>
+    </div>
+</div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script type="module" src="js/script.js"></script>
+</body>
+
+</html>

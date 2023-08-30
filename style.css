@@ -1,0 +1,527 @@
+@font-face {
+  font-family: Lemon;
+  src: url(lemon.otf);
+}
+
+body {
+  overflow-x: hidden;
+}
+.container1{
+  background-image: url('img/mainbread.jpg');
+  background-size: cover;
+  background-position:center; 
+  /* background-color: red; */
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+#navbarNav{
+  position: relative;
+  left: 24.5vw;
+}
+.brandName{
+  position: relative;
+  left: 5vw;
+}
+.brandPic{
+  /* background-color: blue ; */
+  position: relative;
+  width: 3.5vw;
+  left: 5vw;
+  bottom: 0.9vh;
+}
+.accounts{
+  position: relative;
+  left: 15vw;
+}
+.cart{
+  position: relative;
+  left: 16vw;
+}
+
+.container2{
+  background-color: peachpuff;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  
+}
+
+.slogan{
+  /* background-color: red; */
+  font-family: Lemon;
+  width: 40vw;
+  position: relative;
+  top: 20vh;
+  left: 13vw;
+  color: white;
+}
+.slog{
+  font-size: 6rem;
+}
+
+.btn1{
+  position: relative;
+  top: 4vh;
+  border-radius: 10px;
+  background-color: #E57C23;
+  color: white;
+}
+@media screen and (max-width: 1524px) {
+  .slog{font-size: 3.5rem;}
+}
+@media screen and (max-width: 514px) {
+ .slogan{top: 0vh;}
+ .slog{font-size: 2rem;}
+}
+@media screen and (max-width: 907px) {
+  .content-element h1{font-size: 50px;}
+  .content-2{padding: 20px;}
+}
+@media screen and (max-width: 690px) {
+  .content-element-2 h1{font-size: 45px;}
+  .content-element-2 p{font-size: 14px;padding-top: 5px;}
+}
+@media screen and (max-width: 690px) {
+  .content-element-2 h1{font-size: 35px;}
+}
+@media screen and (max-width: 690px) {
+  .content-element-2 p{font-size: 12px;}
+}
+/* .minicon{
+  background: red;
+  position: relative;
+  top: 10vh;
+  left: 10vw;
+  width: 40vw;
+  height: 82vh;
+} */
+/* .mainPic{
+  background-color: violet;
+  height: 40vh;
+}
+.mainPic img{
+  width: 40vw;
+} */
+
+/* .pic2{
+  background-color: blue;
+  position: relative;
+  left: 10vw;
+  top: -15.2vh;
+  width: 14vw;
+}
+.pic3{
+  position: relative;
+  left: 23.7vw;
+  top: -40.3vh;
+  width: 14vw;
+}
+.pic4{
+  position: relative;
+  left: 37.4vw;
+  top: -65.4vh;
+  width: 14vw;
+} */
+.welcome{
+  /* background-color: red; */
+  position: relative;
+  bottom: 145vh;
+  left: 54vw;
+  width: 20vw;
+  
+}
+.lineOne{
+  position: relative;
+  top: 5vh;
+  
+}
+
+.welcomeMessage{
+  /* background-color: red; */
+  width: 40vw;
+
+}
+.slide-container {
+  margin: 0 30px;
+  overflow: hidden;
+}
+.swiper {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.custom-card:hover{
+  border-color: #765827 !important;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.cardo{
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 400px;
+  background-color: #453E3B;
+  height: 100vh;
+  transition: 0.5s;
+}
+.cardo h1{
+  color: #E57C23;
+}
+.cardo .checkOut{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.cardo .checkOut div{
+  background-color: #E57C23;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.cardo .checkOut div:nth-child(2){
+  background-color: #1C1F25;
+  color: #fff;
+}
+.active .cardo{
+  left: calc(100% - 400px);
+}
+.active .container{
+  transform: translateX(-200px);
+}
+
+/* Neri 25 Aug 2023 10:56am */
+
+.container3{
+  position: relative;
+  top: 30%;
+  padding-left: 60px;
+}
+.landscape{
+  /* background-color:green ; */
+  margin-left: -60px;
+  width: 100vw;
+  height: 70vh;
+  background-image: url(img/landscapeCake1.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: Lemon;
+
+}
+.percent{
+  /* background-color:green ; */
+  width: 40vw;
+  position: relative;
+  left: 14vw;
+  top: 10vh;
+}
+.just{
+font-size: 1.5rem;
+color: white;
+}
+.baking{
+  /* background-color:green ; */
+  position: relative;
+  width: 40vw;
+  left: 14vw;
+  top: 13vh;
+}
+.special{
+  font-size: 4rem;
+  color: white;
+}
+.container5{
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/bakeShop.jpg);
+  /* background-color: blue; */
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* top: 10vh; */
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+}
+.container-5{
+  background-image: url('img/roll2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.container5 h2{
+  position: relative;
+  top: 3vh;
+  left: 2%;
+}
+.mainservice{
+  width: 60%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.griditem1div{
+  padding: 20px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+
+}
+.grid-item1{
+  /* border: 3px solid white;
+  border-radius: 100%; */
+  text-align: center;
+  margin-bottom: 20px;
+}
+.griditem2div{
+  padding: 20px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+.grid-item2{
+  /* border: 3px solid white;
+  border-radius: 100%; */
+  text-align: center;
+  margin-bottom: 20px;
+}
+.griditem3div{
+  padding: 20px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-item3{
+  /* border: 3px solid white;
+  border-radius: 100%; */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.griditem4div{
+  padding: 20px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+.grid-item4{
+  /* border: 3px solid white;
+  border-radius: 100%; */
+  text-align: center;
+  margin-bottom: 20px;
+}
+.image {
+ 
+  width: 60px;
+  height: 8vh;
+  margin-top: 55px;
+  position: relative;
+  bottom: 3vh;
+  right: 5%;
+}
+.image2 {
+  width: 140px;
+  height: auto;
+  position: relative;
+  margin-bottom: -35px;
+   top: 0vh;
+   right: 5%;
+}
+.image3{
+  width: 120px;
+  height: auto;
+   margin-bottom: 10px;
+   position: relative;
+   top: 3vh;
+   right: 5%;
+   
+}
+.image4 {
+  width: 100px;
+  height: auto;
+  margin-bottom: 25px;
+  position: relative;
+  top: 2vh;
+  right: 5%;
+}
+
+.rollDown{
+  height: 37vh;
+}
+.p{
+ 
+  width: 10vw;
+  height: 30%;
+}
+.container6{
+  /* background-color: red; */
+  padding: 20px;
+  text-align: center;
+  height: 80vh;
+}
+.members{
+  position: relative;
+  top: 3vh;
+
+  justify-content: center;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+.stars{
+  height: auto;
+  width: 70%;
+}
+.idpic{
+  height: 30%;
+  width: 40%;
+  border: .5px solid #765827;
+  border-radius: 50%;
+}
+.membername{
+  padding: 10px;
+  height: 30%;
+  width: 17%;
+  border: 2px solid #765827;
+}
+.membername p{
+  padding-top: 20px;
+}
+.membername h4{
+  position: relative;
+  top: 2vh;
+  padding-top: 25px;
+}
+.mapdiv{
+  background-image: url(./img/map.png);
+  height: 60vh;
+  width: 100%;
+}
+.contactus{
+  position: relative;
+  left: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  width: 25%;
+  background-color: rgb(73 52 44);
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+.input{
+  width: 70%;
+}
+.input2{
+  width: 70%;
+}
+.message{
+  width: 70%;
+  height: 30%;
+}
+.button{
+  width: 50%;
+  height: 15%;
+}
+.footer{
+  margin-top: 0.5vh;
+  width: 100%;
+  height: 40vh;
+  background-color: black ;
+  color: white;
+  display: grid;
+  place-items: center;
+}
+.parentfooter{
+  margin-top: 10vh;
+  align-items: center;
+  width: 90%;
+  background-color: transparent;
+  display: flex;
+ flex-direction: row; 
+ align-items: flex-start;
+ gap: 20px;
+}
+.footerdiv{
+  color: white ;
+  font-size: 10px;
+  height: 60%;
+}
+.subdiv{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.subdiv img{
+  height: 7vh;
+  width: 25%;
+}
+.fa-brands{
+  font-size: 20px;
+  width: 10%;
+  height: 4vh;
+  justify-content: space-evenly;
+}
+.parentgrid{
+  color: white ;
+  height: 20vh;
+  width: 50%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+.griddiv{
+  width: 70%;
+  height: 10vh;
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1px;
+  
+}
+.imgdiv{
+  border: 2px solid black;
+}
+.imgdiv img{
+  height: 8vh;
+  width: 100%;
+}
+.addCartButtonColor{
+  background-color: #765827;
+  color: white;
+}
+
