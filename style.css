@@ -637,3 +637,8 @@ color: white;
 .billNames{
   font-size: 15px;
 }
+.btn{
+ position: relative;
+left: 95%;
+bottom: 10vh;  
+}
